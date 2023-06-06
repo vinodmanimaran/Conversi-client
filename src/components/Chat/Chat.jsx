@@ -7,7 +7,7 @@ import AiCode from '../customMessageForm/Aicode';
 import AiAssist from '../customMessageForm/AiAssist';
 
 const Chat = ({ user, secret }) => {
-  const chatProps = useMultiChatLogic(import.meta.env.VITE_PROJECT_ID, user, secret);
+  const chatProps = useMultiChatLogic("17d369de-1345-4f3b-ba05-ab0ac4882361", user, secret);
 
   return (
     <div style={{ flexBasis: '100%' }}>
