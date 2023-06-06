@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 // Create the API using createApi
 export const api = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }), // Set the base URL using import.meta.env.VITE_BASE_URL
+  baseQuery: fetchBaseQuery({ baseUrl: "https://chatapp-67pb.onrender.com" }), // Set the base URL 
   reducerPath: 'main', // Set the reducer path
   tagTypes: [], // Define tag types if needed
   endpoints: (build) => ({
